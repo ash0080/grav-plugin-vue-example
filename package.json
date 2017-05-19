@@ -1,0 +1,19 @@
+{
+  "name": "vue-example",
+  "version": "1.0.0",
+  "description": "add vue to grav plugin",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elvis",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^5.0.0",
+    "rollup": "^0.41.6",
+    "rollup-plugin-uglify-es": "0.0.1",
+    "rollup-plugin-vue": "^2.4.0",
+    "vue": "^2.3.3"
+  }
+}

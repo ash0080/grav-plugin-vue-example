@@ -1,0 +1,27 @@
+name: Vue Example
+version: 0.1.0
+description: use vue in front end
+icon: plug
+author:
+  name: Elvis
+  email: ash0080@gmail.com
+homepage: https://github.com/ash0080/grav-plugin-vue-example
+demo: http://demo.yoursite.com
+keywords: grav, plugin, etc
+bugs: https://github.com/ash0080/grav-plugin-vue-example/issues
+docs: https://github.com/ash0080/grav-plugin-vue-example/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
